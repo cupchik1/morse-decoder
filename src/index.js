@@ -46,9 +46,6 @@ function decode(expr) {
         if (+expr.slice(i, j)) {
             array.push(String(Number(expr.slice(i, j))));
         }
-        // else if (expr.slice(i, j) == "**" && expr.slice(i-2, j-2) != "**"){
-        //     array.push(" ");
-        // }
         else {
             array.push(" ");
         }
